@@ -108,7 +108,6 @@ body{
     padding: 1.875rem;
     margin:1.875rem;
     text-align: center;
-    color:#ffe599;
     width:50%;
     font-size:1.25rem;
 }
@@ -131,20 +130,77 @@ body{
     align-items: center;
     justify-content: center;
 }
-#inputs{
+#calculateCard{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #6D6CC6;
+    padding: 2rem;
+    border-radius: 3.125rem;
+    box-shadow: 0px 0.625rem 2.5rem black;
+    width:25rem;
 }
-#inputs input{
+#calculateCard input{
     height: 3rem;
     margin-bottom:.5rem;
     border-radius: 50px;
     border-style: none;
-    background-color: #6D6CC6;
-    color:#ffe599;
+    background-color: white;
+    color:black;
     font-size: 20px;
     text-align: center;
 }
+#calculateCard input::placeholder{
+    color:black;
+    opacity: 50%;
+    font: "Poppins";
+
+}
+#calculateCard div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#calculateCard div button{
+    border-style: none;
+    border-radius: 0.5rem;
+    height:3rem;
+    font-size: medium;
+    font-family: "Poppins";
+    background-color: #ffe599;
+    margin-bottom: 1rem;
+}
+#calculateCard div button:hover{
+    box-shadow: 0px 5px 30px white;
+}
+#calculateCard button{
+    border-style: none;
+    border-radius: 0.5rem;
+    height:3rem;
+    font-size: medium;
+    font-family: "Poppins";
+    background-color: #ffe599;
+    margin-top: 1rem;
+}
+#calculateCard button:hover{
+    box-shadow: 0px 5px 30px white;
+}
+#calculateCard div p{
+    color: #ffe599;
+    font-weight: 300px;
+    font-size:1.25rem;
+    font-family: "Poppins";
+    font-size: 1.25rem;
+
+}
+#inputs div input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 @media screen and (max-width: 768px) {
     body {
         padding-top: 0.75rem;

@@ -63,10 +63,20 @@
     </section>
     <section id="calculate">
         <h1 class="greeting">Calculator</h1>
-        <div id = "inputs">
-            <input type="number" placeholder="Weight">
-            <input type="number" placeholder="Height">
+        <div id = "calculateCard">
+            <div>
+               <p >Default Units = Metric Units(Kg/cm)</p> 
+               <button placeholder="Toggle Units" onclick="">Toggle Units</button>
+            </div>
+            <h1 class="cardTitle">Enter your weight:</h1>
+            <input type="number" placeholder="Weight" min = 0>
+            <h1 class="cardTitle">Enter your height:</h1>
+            <input type="number" placeholder="Height" min = 0>
+            <h1 class="cardTitle">Enter your Age:</h1>
+            <input type="number" placeholder="Age(Years)" min="2">
+            <button type="submit" >Submit</button>
         </div>
     </section>
+    <section id="contact"></section>
 </body>
 </html>
