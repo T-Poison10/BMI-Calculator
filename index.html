@@ -19,7 +19,7 @@
         <li class = "navComponents"><a href="#usages">Usages</a></li>
         <li class = "navComponents"><a href="#information">Information</a></li>
         <li class="navComponents"><a href="#calculate">Calculate</a></li>
-        <li class = "navComponents"><a href="">Contact Us</a></li >
+        <li class = "navComponents"><a href="#">Contact Us</a></li >
         </div>
     <div class = "body" id = "home">
         <h1 class="greeting">Welcome to BMI Calculator</h1>
@@ -66,7 +66,7 @@
         <div id = "calculateCard">
             <div>
                <p >Default Units = Metric Units(Kg/cm)</p> 
-               <button placeholder="Toggle Units" onclick="">Toggle Units</button>
+               <button class="button" placeholder="Toggle Units" onclick="">Toggle Units</button>
             </div>
             <h1 class="cardTitle">Enter your weight:</h1>
             <input type="number" placeholder="Weight" min = 0>
@@ -74,9 +74,17 @@
             <input type="number" placeholder="Height" min = 0>
             <h1 class="cardTitle">Enter your Age:</h1>
             <input type="number" placeholder="Age(Years)" min="2">
-            <button type="submit" >Submit</button>
+            <button type="submit"  class="button">Submit</button>
         </div>
     </section>
-    <section id="contact"></section>
+    <section id="contact">
+        <h1 class="greeting">Want to Reach Out?</h1>
+        <div class ="card" id="reachCard">
+            <h1 class="cardTitle">Need Help?</h1>
+            <p style = "margin-right: .75rem;">You can reach us out throug various platforms if you wanna change your body. We are always ready to help you out. Feel free to reach out to us out support team will respond as soon as possible.</p>
+            <a href="mailto:bmi@gmail.com"><img src="images/mail.png" alt="mail" class="logo"></a>
+            
+        </div>
+    </section>
 </body>
 </html>
