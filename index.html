@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    
+    <div id = "navbar">
+        <img src="images/logi.png" class="logo">
+        <li class = "navComponents"><a href="#home">Home</a></li>
+        <li class = "navComponents"><a href="#usages">Usages</a></li>
+        <li class = "navComponents"><a href="#information">Information</a></li>
+        <li class="navComponents"><a href="#calculate">Calculate</a></li>
+        <li class = "navComponents"><a href="">Contact Us</a></li >
+        </div>
+    <div class = "body" id = "home">
+        <h1 class="greeting">Welcome to BMI Calculator</h1>
+        <p id="intro">Welcome to our BMI (Body Mass Index) calculator!
+
+            Understanding your BMI is crucial for maintaining a healthy lifestyle. BMI is a simple yet effective tool that assesses your body weight in relation to your height. By calculating your BMI, you can gain valuable insights into whether your weight falls within a healthy range or if adjustments may be necessary to promote overall well-being.
+            
+            Our user-friendly BMI calculator requires just a few inputs – your height and weight – to provide you with your BMI score. Armed with this information, you can make informed decisions about your health and take proactive steps towards achieving your fitness goals.
+            
+            Whether you're embarking on a fitness journey, monitoring your health, or simply curious about your BMI, our calculator is here to help. Start by entering your details and let us guide you towards a healthier tomorrow.
+            
+            Take the first step towards a healthier you. </p>
+            <section>
+                <div id="gender">
+                        <img src="images/male.png" alt="male" class = "genderLogo" onclick=maleTheme()>
+                        <img src="images/female.png" alt="female" class = "genderLogo" onclick=femaleTheme()>
+                </div>
+            </section>     
+    </div>
+    <section id="usages">
+        <h1 class="greeting">Why BMI Calculator</h1>
+        <div class = "cards">
+           <div class="card">
+                <h1 class="cardTitle">Quick Assessment of Health Status</h1>
+                <p>By calculating BMI, individuals can quickly assess whether their weight falls within a healthy range relative to their height. This can serve as an initial indicator of potential health risks associated with being underweight, overweight, or obese.</p>
+           </div>
+            <div class="card">
+                <h1 class="cardTitle">Early Detection of Health Risks</h1>
+                <p>BMI can help identify individuals who may be at risk for certain health conditions, such as heart disease, diabetes, and hypertension. High BMI values are often associated with increased health risks.</p>
+            </div>
+            <div class="card">
+                <h1 class="cardTitle">Monitoring Changes Over Time</h1>
+                <p>Regularly calculating and tracking BMI allows individuals to monitor changes in their weight and overall health over time. This can help identify trends and make informed decisions about lifestyle modifications or interventions as needed.</p>
+           </div>
+
+        </div>
+    </section>
+    <section id = "information">
+        <h1 class="greeting">Information</h1>
+        <img src="images/bmi male.jpg" alt="bmi" id="bmiPhoto">
+    </section>
+    <section id="calculate">
+        <h1 class="greeting">Calculator</h1>
+        <div id = "inputs">
+            <input type="number" placeholder="Weight">
+            <input type="number" placeholder="Height">
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,185 @@
+body{
+    background-color:#4948b7;
+    padding-top: 1.25rem;
+}
+#navbar{
+    position: sticky;
+    top: 1.25rem;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #B6B748;
+    width:fit-content;
+    margin: auto;
+    padding: 0.9375rem;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+    border-radius: 6.25rem;
+    font-family: "Poppins";
+    font-size: 1.25rem;
+    font-weight: 500;
+    box-shadow: 0.3125rem 0.625rem 1.875rem;
+    z-index: 100;/
+}
+.logo{
+    height: 3.75rem;
+    width: auto;
+    display: block;
+}
+.navComponents a{
+    text-decoration: none;
+    color: black;
+    margin:2.5rem
+}
+.greeting{
+    color: #B6B748;
+    font-family: "Poppins";
+    font-size: 3.125rem;
+    text-shadow: 0px 0.625rem 1.875rem black;
+}
+.body{
+    margin-top: -3.5rem;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 6.25rem;
+    margin-right: 6.25rem;
+    font-size: 1.25rem;
+}
+.body p{
+    font-family: "Poppins";
+    color:#ffe599;
+    background-color: #6D6CC6;
+    border-radius: 3.125rem;
+    padding: 1.875rem;
+    text-align: center;
+}
+.body p span{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.125rem;
+    width: fit-content;
+    margin:auto;
+    border-radius: 3.125rem;
+    padding: 0.9375rem;
+}
+.genderLogo{
+    height: 6.25rem;
+    border-radius: 3.125rem;
+    padding:0.3125rem
+}
+.genderLogo:hover{
+    background-color: #6D6CC6;
+}
+#usages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width:auto;
+    margin-bottom: 3rem;
+}
+.cardTitle{
+    color: #B6B748;
+    font-family: "Poppins";
+    font-size: 1.875rem;
+    margin-right: 0.9375rem;
+}
+.card{
+    box-shadow: 0px 0.625rem 2.5rem black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Poppins";
+    color:#ffe599;
+    background-color: #6D6CC6;
+    border-radius: 3.125rem;
+    padding: 1.875rem;
+    margin:1.875rem;
+    text-align: center;
+    color:#ffe599;
+    width:50%;
+    font-size:1.25rem;
+}
+#information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width:auto;
+    margin-bottom: 3rem;
+}
+#information img{
+    height: 35rem;
+    border-radius: 50px;
+    box-shadow:0px 10px 30px black;
+}
+#calculate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#inputs{
+    display: flex;
+    flex-direction: column;
+}
+#inputs input{
+    height: 3rem;
+    margin-bottom:.5rem;
+    border-radius: 50px;
+    border-style: none;
+    background-color: #6D6CC6;
+    color:#ffe599;
+    font-size: 20px;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    body {
+        padding-top: 0.75rem;
+    }
+    #navbar {
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .logo {
+        height: 2.5rem;
+    }
+    .navComponents a {
+        margin: 1.5rem;
+    }
+    .greeting {
+        font-size: 2rem;
+    }
+    .body {
+        margin-left: 3rem;
+        margin-right: 3rem;
+        font-size: 1rem;
+    }
+    .body p {
+        padding: 1rem;
+    }
+    .body p span {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+    .genderLogo {
+        height: 4rem;
+    }
+    .card {
+        width: 100%;
+        font-size: 1rem;
+    }
+}
